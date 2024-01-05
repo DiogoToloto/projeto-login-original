@@ -18,6 +18,10 @@
     height: 100%;
   }
 
+  form div.campo {
+    height: 38.5px;
+  }
+
   section#login > div#formulario {
     float: right;
     width: 70%;
@@ -44,6 +48,10 @@
         width: 50%;
         height: 100%;
     }
+
+    form div.campo {
+        height: 38.5px;
+      }
 
     section#login > div#formulario {
         float: left;
