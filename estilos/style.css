@@ -25,6 +25,7 @@ body {
     background-image: url(../imagens/pexels-laura-tancredi-7078666.jpg);
     background-size: cover;
     height: 25vh;
+    width: 100vw;
 }
 
 #form {
