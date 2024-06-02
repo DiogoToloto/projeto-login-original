@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="img">
+            </div>
+            <div id="form">
+                <div>
+                    <h1>Cadastro</h1>
+                </div>
+                <div>
+                    <p>Preencha os dados a baixo para criar a sua conta
+                    </p>
+                </div>
+                    <form action="login.php" method="post">
+                        <div id="container-input">
+                            <div class="campo">
+                                <span class="material-symbols-outlined">
+                                    person
+                                    </span>
+                                <input type="email" name="login" id="ilogin" placeholder="Nome" required  maxlength="30" autocomplete="email">                            
+                            </div>
+                            <div class="campo">
+                                <span class="material-symbols-outlined">
+                                    person
+                                    </span>
+                                <input type="email" name="login" id="ilogin" placeholder="Sobrenome" required  maxlength="30" autocomplete="email">                            
+                            </div>
+                            <div class="campo">
+                                <span class="material-symbols-outlined">
+                                    email
+                                    </span>
+                                <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" required  maxlength="30" autocomplete="email">                            
+                            </div>
+                            <div class="campo">
+                                <span class="material-symbols-outlined">
+                                    password
+                                    </span>
+                                <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8" maxlength="20" autocomplete="current-password">
+                            </div>
+                            <div class="campo">
+                                <span class="material-symbols-outlined">
+                                    password
+                                    </span>
+                                <input type="password" name="senha" id="isenha" placeholder="Repetir a senha" required minlength="8" maxlength="20" autocomplete="current-password">
+                            </div>
+                        </div>
+                        <div id="btn">
+                            <input class="btn" type="submit" value="ENTRAR">
+                            <a class="btn-2" href="esqueciASenha.html" class="botao">
+                                VOLTAR <span class="material-symbols-outlined">
+                                    
+                                    </span>
+                            </a>
+                        </div>
+                    </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
