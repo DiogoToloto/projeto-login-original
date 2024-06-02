@@ -2,6 +2,7 @@
   #login {
     display: flex;
     flex-direction: row;
+    height: 100vh;
   }
 
   #img {
